@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Cheat Sheet</title>
+    </head>
+        <body>
+            <!--Headings-->
+            <h1>Heading One</h1>
+            <h2>Heading Two</h2>
+            <h3>Heading Three</h3>
+            <h4>Heading Four</h4>
+            <h5>Heading Five</h5>
+            <h6>Heading Six</h6>
+
+            <!-- Paragraphs -->
+            <!-- lorem10 for 10 sample words -->
+            <!-- strong does bold -->
+            <!-- em does italics -->
+            <!-- a is attribute, href is the hyperlink attribute, target="_blank" opens a new tab instead of opening on same tab -->
+            <p>Lorem ipsum <strong>dolor</strong> <em>sit</em> amet consectetur adipisicing elit. Dolorem, non!</p>
+            <p>Lorem ipsum <a href="https://www.youtube.com/" target="_blank">dolor</a> sit amet consectetur adipisicing elit. 
+            Expedita, neque.</p>
+
+            <!-- Lists -->
+            <!-- <li> is the seperate items in each list -->
+            <!-- UnOrdered lists is <ul>. They will list the items with bullet points -->
+            <ul>
+                <li>List Item 1</li>
+                <li>List Item 2</li>
+                <li>List Item 3</li>
+                <li>List Item 4</li>
+            </ul>
+            <!-- Ordered Lists is <ol>. They will list the items with numbers instead of bullet points. -->
+            <ol>
+                <li>List Item 1</li>
+                <li>List Item 2</li>
+                <li>List Item 3</li>
+                <li>List Item 4</li>
+            </ol>
+
+            <!-- Tables -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Age</th>
+                    </tr>
+                </thead>
+                <tbody>
+                        <tr>
+                            <td>Yosef Abushaaban</td>
+                            <td>yosefabushaaban03@gmail.com</td>
+                            <td>18</td>
+                        </tr>
+                        <tr>
+                            <td>John Abushaaban</td>
+                            <td>johnabushaaban03@gmail.com</td>
+                            <td>19</td>
+                        </tr>
+                        <tr>
+                            <td>Bob Abushaaban</td>
+                            <td>bobabushaaban03@gmail.com</td>
+                            <td>20</td>
+                        </tr>
+                </tbody>
+            </table>
+
+            <br>
+
+            <!-- Forms -->
+            <!-- HTML only creates the "look" of a form but does not have any functionality -->
+            <!-- method will usually be POST for forms. POST adds data to a database. Can use GET but that is less secure bc data store in URL -->
+            <form action="process.php" method="POST"> 
+            <div>
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" placeholder="John">
+            </div>
+            <br>
+            <div>
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" placeholder="Doe">
+            </div>
+            <br>
+            <div>
+                <label for="eMail">E-Mail</label>
+                <input type="email" name="eMail" placeholder="example@email.com">
+            </div>
+            <br>
+            <div>
+                <label for="text">Message</label>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Feedback"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="gender">Gender</label>
+                <select name="gender" id="">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="age">Age:</label>
+                <input type="number" name="age">
+            </div>
+            <br>
+            <div>
+                <label for="birthday">Birthday:</label>
+                <input type="date" name="birthday">
+            </div>
+            <br>
+            <input type="submit" name="submit" value="Submit">
+            </form>
+<br>
+            <!-- Buttons -->
+            <button>Click Me</button>
+<br>
+<br>
+            <!-- Images -->
+        <a href="https://www.youtube.com/watch?v=-Rgr9kQ_dLk&ab_channel=RRBChefs" target="_blank">
+            <img src="rrbChefs.jpg" alt="RRB Chefs Phantom AIO Tutorial">
+        </a>
+
+        <!-- Quotations -->
+        <!-- Block Quote, Abbreviate, Site -->
+        <blockquote cite="https://www.youtube.com">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, enim.
+        </blockquote>
+<br>
+        <p>The <abbr title="World Wide Web"> WWW</abbr> is awesome</p>
+<br>
+        <p><cite>HTML crash course</cite> by Brad</p>
+<br>
+        <h1><a href="blog.html" target="_blank">My Blog</a></h1>
+
+
+
+            <div style="margin-top:500px"></div>
+        </body>
+</html>
